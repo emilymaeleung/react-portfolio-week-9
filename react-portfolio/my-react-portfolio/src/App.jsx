@@ -1,19 +1,29 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Header from './Components/header';
-import Footer from './Components/Footer';
-import Homepage from './pages/Homepage';
-import ProjectsPage from './pages/ProjectsPage';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Homepage from './Pages/Homepage';
+import Projects from './Pages/ProjectsPage';
+import About from './Pages/About';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/projects" element={<ProjectsPage />} />
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+    <Router>
+      <div className="App">
+        <Header />
+        <Routes>
+          {/* This is the route for your homepage */}
+          <Route path="/" element={<Homepage />} />
+          
+          {/* This is the route for your projects page */}
+          <Route path="/projects" element={<Projects />} />
+          
+          {/* This is the route for your about page */}
+          <Route path="/about" element={<About />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

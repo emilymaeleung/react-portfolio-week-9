@@ -24,24 +24,41 @@ function Projects() {
         <div className="projects-grid">
           {/* Example ProjectCard components */}
           <ProjectCard
-            title="E-commerce Website"
+            title="API Integration Note-Taker App"
             description="A modern, responsive e-commerce platform built with React, Redux, and Node.js."
             imageSrc={project1Image}
             linkTo="/projects/ecommerce"
           />
           <ProjectCard
-            title="Mobile Game App"
+            title="JavaScript To-Do List"
             description="A fun and engaging mobile game developed for iOS and Android using Swift and Kotlin."
             imageSrc={project2Image}
             linkTo="/projects/mobile-game"
           />
           <ProjectCard
-            title="Data Visualization Dashboard"
+            title="Weather Dashboard"
             description="An interactive dashboard for visualizing complex datasets, powered by D3.js and Tailwind CSS."
             imageSrc={project3Image}
             linkTo="/projects/data-viz"
           />
-          {/* Add more ProjectCard components here as you create new projects */}
+          <ProjectCard
+            title="Veterinary website built using Bootstrap"
+            description="An interactive dashboard for visualizing complex datasets, powered by D3.js and Tailwind CSS."
+            imageSrc={project3Image}
+            linkTo="/projects/data-viz"
+          />
+          <ProjectCard
+            title="Catering website for the elderly built using CSS Flex"
+            description="An interactive dashboard for visualizing complex datasets, powered by D3.js and Tailwind CSS."
+            imageSrc={project3Image}
+            linkTo="/projects/data-viz"
+          />
+          <ProjectCard
+            title="Simple portfolio website"
+            description="An interactive dashboard for visualizing complex datasets, powered by D3.js and Tailwind CSS."
+            imageSrc={project3Image}
+            linkTo="/projects/data-viz"
+          />                   
         </div>
       </section>
     </main>
