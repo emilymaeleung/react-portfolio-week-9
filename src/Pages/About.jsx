@@ -1,8 +1,7 @@
 import React from 'react';
-import ContentSection from '../components/ContentSection';
+import ContentSection from '../Components/ContentSection';
 import bannerImage from '../assets/about-image.jpg'; 
 import aboutImage from '../assets/about-image.jpg'; // Using a placeholder image for the section
-import projectsImage from '../assets/projects-image.jpg'; // Import the image for the content section
 
 function About() {
   return (

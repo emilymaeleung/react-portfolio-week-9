@@ -1,5 +1,5 @@
 import React from 'react';
-import ContentSection from '../components/ContentSection';
+import ContentSection from '../Components/ContentSection';
 
 import bannerImage from '../assets/hero-2.jpg'; 
 // Import your section images here
